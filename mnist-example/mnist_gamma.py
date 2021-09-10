@@ -122,4 +122,4 @@ for rescale_factor in rescale_factors:
             "{}x{}\t{}\t{}:{}\t{}\t{}".format(resized_images[0].shape[0], resized_images[0].shape[1], clf, (1 - test_size) * 100,
                                           test_size * 100, acc, f1))
 
-        plt.show()
+        # plt.show()
